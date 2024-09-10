@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Radio</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1e1e1e;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .radio-container {
+            margin: 20px auto;
+            width: 300px;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+        }
+        audio {
+            width: 100%;
+            outline: none;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Mi Radio</h1>
+</header>
+
+<div class="radio-container">
+    <h2>Escucha en Vivo</h2>
+    <audio controls>
+        <source src="tu-radio-stream-url.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+</div>
+
+<footer>
+    <p>&copy; 2023 Mi Radio. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+      </html>
